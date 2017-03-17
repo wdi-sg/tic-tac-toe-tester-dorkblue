@@ -27,7 +27,6 @@ function whoWon () {
 
 // this works
 function playTurn (move) {
-  console.log(turn)
   if (turn % 2 !== 0) {
     if (array[move] !== null) return false
     turn++
