@@ -77,6 +77,8 @@ function simulateGame (testTitle, moves, winner) {
   expect('playTurn should not allow move after gameover', playTurn(moves[0]), false)
 
   expect('whoWon should return ' + winner + ' at end of the game', whoWon(), winner)
+
+
 }
 
 function expect (expectationMessage, testFunctionResult, returnValue) {
