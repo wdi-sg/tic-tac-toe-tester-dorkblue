@@ -30,12 +30,12 @@ function playTurn (move) {
   if (turn % 2 !== 0) {
     if (array[move] !== null) return false
     turn++
-    array[move] = 1
+    array[move] = 'one'
     return true
   } else {
     if (array[move] !== null) return false
     turn++
-    array[move] = 2
+    array[move] = 'two'
     return true
   }
 }
