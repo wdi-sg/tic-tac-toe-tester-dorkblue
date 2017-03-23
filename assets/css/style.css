@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  background-color: grey;
+  margin : 0 auto;
+  max-width: 800px;
+  width: 90%;
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.grid {
+  margin : 0 auto;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  /*background-color: blue;*/
+  width: 33.33%;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.playerOne {
+  background-image: url('http://s.wsj.net/public/resources/images/OB-NN691_bean1_D_20110417095440.jpg');
+}
+.playerTwo {
+  background-color: red;
+}
